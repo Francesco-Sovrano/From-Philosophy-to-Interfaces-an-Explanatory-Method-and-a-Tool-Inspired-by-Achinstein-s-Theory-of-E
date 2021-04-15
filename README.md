@@ -1,7 +1,7 @@
 # From Philosophy to Interfaces: an Explanatory Method and a Tool Inspired by Achinstein’s Theory of Explanation
 
-Source code and data of the experiment for the homonymous paper.
-Coming soon, by the beginning of [ACM IUI 2021](https://iui.acm.org/2021/), the 26th annual meeting of the intelligent interfaces, in April the 13th.
+In this repository you'll find the source code and the data used in the experiments of our paper: "From Philosophy to Interfaces: an Explanatory Method and a Tool Inspired by Achinstein’s Theory of Explanation".
+This paper has been presented at [ACM IUI 2021](https://iui.acm.org/2021/), the 26th annual meeting of the intelligent interfaces, in April the 15th.
 
 The code of the baseline is at [software/yai_baseline](software/yai_baseline).
 The code of our user-centric variation of the baseline is at [software/yai_alternative](software/yai_alternative).

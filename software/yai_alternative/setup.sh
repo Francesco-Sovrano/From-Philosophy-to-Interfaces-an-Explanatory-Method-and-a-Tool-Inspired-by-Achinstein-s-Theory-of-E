@@ -6,7 +6,7 @@ cd $MY_DIR
 # Run AIX server
 cd aix
 echo 'Setting up AIX server..'
-python3 -m --upgrade-deps venv .env
+python3 -m venv .env
 source .env/bin/activate
 pip install -U pip setuptools wheel twine
 pip install -r requirements.txt
@@ -15,7 +15,7 @@ cd ..
 # Run YAI server
 cd yai
 echo 'Setting up YAI server..'
-python3 -m --upgrade-deps venv .env
+python3 -m venv .env
 source .env/bin/activate
 pip install -U pip setuptools wheel twine
 pip install -r requirements.txt
@@ -24,7 +24,7 @@ cd ..
 # Run OKE Server
 cd oke
 echo 'Setting up OKE server..'
-python3 -m --upgrade-deps venv .env
+python3 -m venv .env
 source .env/bin/activate
 pip install -U pip setuptools wheel twine
 # cd .env/lib

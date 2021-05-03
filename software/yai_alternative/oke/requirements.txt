@@ -1,4 +1,4 @@
-bottle
+bottle==0.12.19
 
 tensorflow==2.1.0 # machine learning
 tensorflow_hub==0.8.0 # pre-trained models
@@ -13,17 +13,18 @@ concepts==0.9.1 # formal concept analysis
 pywsd==1.2.4 # word sense disambiguation
 wikipedia==1.4.0 # definition extraction
 transformers==3.0.2 # text summarization and other NLP tasks
+wn==0.0.23 # fixing a bug with pywsd
 
 more_itertools==8.2.0
 sortedcontainers==2.1.0
-python-Levenshtein # levenshtein string distance
-bs4 # xml to txt
-scikit-learn
+python-Levenshtein==0.12.2 # levenshtein string distance
+bs4==0.0.1 # xml to txt
+scikit-learn==0.24.2
 scipy==1.4.1
 wordcloud==1.7.0 # graphics
-tika # pdf to txt
-matplotlib # graphics
+tika==1.24 # pdf to txt
+matplotlib==3.4.1 # graphics
 pydotplus==2.0.2 # graphs
-networkx # graphs
-pandas
-lxml
+networkx==2.5.1 # graphs
+pandas==1.2.4
+lxml==4.6.3

@@ -11,6 +11,11 @@ Before installation, be sure that virtualenv and pip are both available to your 
 * Install the HELOC dataset:
 	* The HELOC dataset and more information about it, including instructions to download, can be found at [https://community.fico.com/s/explainable-machine-learning-challenge?tabset-3158a=2](https://community.fico.com/s/explainable-machine-learning-challenge?tabset-3158a=2). Copy and paste the file [heloc_dataset.csv](https://github.com/explainX/explainx/blob/4f125c324c32d9ed475baa425fce650e16074d4d/datasets/heloc_dataset.csv) into [software/yai_baseline/aix](software/yai_baseline/aix) and [software/yai_alternative/aix](software/yai_alternative/aix)
 
+The Code
+-------
+* The code of the baseline is at [software/yai_baseline](software/yai_baseline).
+* The code of our user-centred alternative to the baseline is at [software/yai_alternative](software/yai_alternative).
+
 Extra Documentation
 -------
 We share with you:
@@ -35,11 +40,6 @@ You can run all the components together by running the scripts:
 	* Log files are generated in the [aix](software/yai_baseline/aix) and [yai](software/yai_baseline/yai) folders.
 
 For debugging or other reasons, you can run the components separately by executing the following command `python3 server.py 8080` (replace 8080 with the port number you chose) from within the directory of the component.
-
-The Code
--------
-* The code of the baseline is at [software/yai_baseline](software/yai_baseline).
-* The code of our user-centred alternative to the baseline is at [software/yai_alternative](software/yai_alternative).
 
 The User Study
 -------

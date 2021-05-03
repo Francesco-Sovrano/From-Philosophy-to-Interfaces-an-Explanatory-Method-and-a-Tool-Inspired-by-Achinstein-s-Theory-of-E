@@ -13,8 +13,8 @@ The Code
 * The code of our user-centric variation of the baseline is at [software/yai_alternative](software/yai_alternative).
 * Run `software/yai_baseline/setup.sh` to install the baseline's dependencies.
 * Run `software/yai_alternative/setup.sh` to install the alternative's dependencies.
-* Run `software/yai_baseline/server.sh 8000` to start the baseline at port 8000. The first time you run it may take a while, training the neural network for credit approval. Log files are generated in the [aix](software/yai_baseline/aix), [oke](software/yai_baseline/oke) and [yai](software/yai_baseline/yai) folders.
-* Run `software/yai_alternative/server.sh 8080` to start the alternative to the baseline, at port 8080. The first time you run it may take a while, training the neural network for credit approval and downloading the language models for summarisation and question-answer retrieval (a few GB each one). Log files are saved in the [aix](software/yai_alternative/aix), [oke](software/yai_alternative/oke) and [yai](software/yai_alternative/yai) folders.
+* Run `software/yai_baseline/server.sh 8000` to start the baseline at port 8000. The first time you run it may take a while, training the neural network for credit approval (therefore generating the npz file). Log files are generated in the [aix](software/yai_baseline/aix), [oke](software/yai_baseline/oke) and [yai](software/yai_baseline/yai) folders.
+* Run `software/yai_alternative/server.sh 8080` to start the alternative to the baseline, at port 8080. The first time you run it may take a while, training the neural network for credit approval (therefore generating the npz file) and downloading the language models for summarisation and question-answer retrieval (a few GB each one). Log files are saved in the [aix](software/yai_alternative/aix), [oke](software/yai_alternative/oke) and [yai](software/yai_alternative/yai) folders.
 
 The HELOC Dataset
 -------

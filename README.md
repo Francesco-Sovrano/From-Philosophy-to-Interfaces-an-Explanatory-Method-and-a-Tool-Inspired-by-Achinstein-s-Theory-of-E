@@ -33,10 +33,10 @@ Each demo is made of different components:
 
 You can run all the components together by running the scripts:
 * `software/yai_alternative/server.sh 8080` to start the alternative to the baseline, at port 8080. 
-	* The first time you run it may take a while, training the neural network for credit approval (therefore generating the npz file) and downloading the pre-trained language models for summarisation and question-answer retrieval (a few GB each one). 
+	* The first time you run it may take a while, training the neural network for credit approval (therefore generating the npz and h5 files) and downloading the pre-trained language models for summarisation and question-answer retrieval (a few GB each one). 
 	* Log files are saved in the [aix](software/yai_alternative/aix), [oke](software/yai_alternative/oke) and [yai](software/yai_alternative/yai) folders.
 * `software/yai_baseline/server.sh 8000` to start the baseline at port 8000. 
-	* The first time you run it may take a while, training the neural network for credit approval (therefore generating the npz file). 
+	* The first time you run it may take a while, training the neural network for credit approval (therefore generating the npz and h5 files).
 	* Log files are generated in the [aix](software/yai_baseline/aix) and [yai](software/yai_baseline/yai) folders.
 
 For debugging or other reasons, you can run the components separately by executing the following command `python3 server.py 8080` (replace 8080 with the port number you chose) from within the directory of the component.

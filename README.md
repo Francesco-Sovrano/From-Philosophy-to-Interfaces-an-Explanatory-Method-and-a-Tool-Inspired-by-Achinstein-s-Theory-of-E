@@ -25,6 +25,7 @@ Each demo is made of different components:
 	* [yai](software/yai_baseline/yai), containing the front-end of the credit approval system: the interface.
 * The alternative has the same components of the baseline, but the following extra:
 	* [oke](software/yai_alternative/oke), containing the back-end of the explanatory AI used for the generation of user-centred explanations.
+
 You can run all the components together by running the scripts:
 * `software/yai_alternative/server.sh 8080` to start the alternative to the baseline, at port 8080. 
 	* The first time you run it may take a while, training the neural network for credit approval (therefore generating the npz file) and downloading the pre-trained language models for summarisation and question-answer retrieval (a few GB each one). 

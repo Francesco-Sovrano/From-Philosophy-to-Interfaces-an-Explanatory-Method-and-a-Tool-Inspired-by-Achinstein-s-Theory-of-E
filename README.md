@@ -9,7 +9,8 @@ Before installation, be sure that virtualenv and pip are both available to your 
 * Run `software/yai_baseline/setup.sh` to install the baseline's dependencies.
 * Run `software/yai_alternative/setup.sh` to install the alternative's dependencies.
 * Install the HELOC dataset:
-	* The HELOC dataset and more information about it, including instructions to download, can be found at [https://community.fico.com/s/explainable-machine-learning-challenge?tabset-3158a=2](https://community.fico.com/s/explainable-machine-learning-challenge?tabset-3158a=2). Copy and paste the file [heloc_dataset.csv](https://github.com/explainX/explainx/blob/4f125c324c32d9ed475baa425fce650e16074d4d/datasets/heloc_dataset.csv) into [software/yai_baseline/aix](software/yai_baseline/aix) and [software/yai_alternative/aix](software/yai_alternative/aix)
+	* The HELOC dataset and more information about it, including instructions to download, can be found at [https://community.fico.com/s/explainable-machine-learning-challenge?tabset-3158a=2](https://community.fico.com/s/explainable-machine-learning-challenge?tabset-3158a=2). 
+	* Copy and paste the file [heloc_dataset.csv](https://github.com/explainX/explainx/blob/4f125c324c32d9ed475baa425fce650e16074d4d/datasets/heloc_dataset.csv) into [software/yai_baseline/aix](software/yai_baseline/aix) and [software/yai_alternative/aix](software/yai_alternative/aix)
 
 The Code
 -------

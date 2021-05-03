@@ -9,16 +9,16 @@ Documentation
 
 The Code
 -------
-* The code of the baseline is at [/software/yai_baseline](software/yai_baseline).
+* The code of the baseline is at [software/yai_baseline](software/yai_baseline).
 * The code of our user-centric variation of the baseline is at [software/yai_alternative](software/yai_alternative).
 * Run `software/yai_baseline/setup.sh` to install the baseline's dependencies.
 * Run `software/yai_alternative/setup.sh` to install the alternative's dependencies.
-* Run `software/yai_baseline/server.sh 8000` to start the baseline at port 8000.
-* Run `software/yai_alternative/server.sh 8080` to start the alternative to the baseline, at port 8080.
+* Run `software/yai_baseline/server.sh 8000` to start the baseline at port 8000. The first time you run it may take a while, training the neural network for credit approval. Log files are generated in the [aix](software/yai_baseline/aix), [oke](software/yai_baseline/oke) and [yai](software/yai_baseline/yai) folders.
+* Run `software/yai_alternative/server.sh 8080` to start the alternative to the baseline, at port 8080. The first time you run it may take a while, training the neural network for credit approval and downloading the language models for summarisation and question-answer retrieval (a few GB each one). Log files are saved in the [aix](software/yai_alternative/aix), [oke](software/yai_alternative/oke) and [yai](software/yai_alternative/yai) folders.
 
 The HELOC Dataset
 -------
-* The HELOC dataset and more information about it, including instructions to download, can be found at [https://community.fico.com/s/explainable-machine-learning-challenge?tabset-3158a=2](https://community.fico.com/s/explainable-machine-learning-challenge?tabset-3158a=2). Copy and paste the file heloc_dataset.csv into [software/yai_baseline/aix](software/yai_baseline/aix) and [software/yai_alternative/aix](software/yai_alternative/aix)
+* The HELOC dataset and more information about it, including instructions to download, can be found at [https://community.fico.com/s/explainable-machine-learning-challenge?tabset-3158a=2](https://community.fico.com/s/explainable-machine-learning-challenge?tabset-3158a=2). Copy and paste the file [heloc_dataset.csv](https://github.com/explainX/explainx/blob/4f125c324c32d9ed475baa425fce650e16074d4d/datasets/heloc_dataset.csv) into [software/yai_baseline/aix](software/yai_baseline/aix) and [software/yai_alternative/aix](software/yai_alternative/aix)
 
 The User Study
 -------

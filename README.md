@@ -25,7 +25,7 @@ Extra Documentation
 The Code
 -------
 * The code of the baseline is at [software/yai_baseline](software/yai_baseline).
-* The code of our user-centric variation of the baseline is at [software/yai_alternative](software/yai_alternative).
+* The code of our user-centred alternative to the baseline is at [software/yai_alternative](software/yai_alternative).
 
 The User Study
 -------

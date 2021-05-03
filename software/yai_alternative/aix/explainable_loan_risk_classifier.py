@@ -20,8 +20,8 @@ from aix360.algorithms.contrastive import CEMExplainer, KerasClassifier
 from aix360.datasets.heloc_dataset import HELOCDataset
 
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
-TRAIN_MODEL = False # Train model or load a trained model
-PROCESS_DATA = False # Clean data and split dataset into train/test
+TRAIN_MODEL = not os.path.isfile(os.path.join(SCRIPT_DIR,'heloc_nnsmall.h5')) # Train model or load a trained model
+PROCESS_DATA = not os.path.isfile(os.path.join(SCRIPT_DIR,'heloc.npz')) # Clean data and split dataset into train/test
 
 class ExplainableLoanRiskClassifier(object):
 	CLASS_NAMES = ['Bad', 'Good']

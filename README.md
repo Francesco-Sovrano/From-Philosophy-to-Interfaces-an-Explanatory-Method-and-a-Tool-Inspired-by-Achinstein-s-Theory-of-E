@@ -33,6 +33,7 @@ You can run all the components together by running the scripts:
 * `software/yai_baseline/server.sh 8000` to start the baseline at port 8000. 
 	* The first time you run it may take a while, training the neural network for credit approval (therefore generating the npz file). 
 	* Log files are generated in the [aix](software/yai_baseline/aix) and [yai](software/yai_baseline/yai) folders.
+
 For debugging or other reasons, you can run the components separately by running the following command `python3 server.py 8080` (replace 8080 with the port number you chose) from within the folders of the component.
 
 The Code

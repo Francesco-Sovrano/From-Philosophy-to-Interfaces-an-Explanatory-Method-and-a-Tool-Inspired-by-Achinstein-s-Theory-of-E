@@ -8,7 +8,8 @@ cd aix
 echo 'Setting up AIX server..'
 virtualenv .env -p python3.7
 source .env/bin/activate
-pip install --use-deprecated=legacy-resolver -U pip setuptools wheel twine
+pip install pip==21.1.1
+pip install --use-deprecated=legacy-resolver -U setuptools wheel twine
 pip install --use-deprecated=legacy-resolver -r requirements.txt
 cd ..
 
@@ -17,7 +18,8 @@ cd yai
 echo 'Setting up YAI server..'
 virtualenv .env -p python3.7
 source .env/bin/activate
-pip install --use-deprecated=legacy-resolver -U pip setuptools wheel twine
+pip install pip==21.1.1
+pip install --use-deprecated=legacy-resolver -U setuptools wheel twine
 pip install --use-deprecated=legacy-resolver -r requirements.txt
 cd ..
 
@@ -26,7 +28,8 @@ cd oke
 echo 'Setting up OKE server..'
 virtualenv .env -p python3.7
 source .env/bin/activate
-pip install --use-deprecated=legacy-resolver -U pip setuptools wheel twine
+pip install pip==21.1.1
+pip install --use-deprecated=legacy-resolver -U setuptools wheel twine
 # cd .env/lib
 # git clone https://github.com/huggingface/neuralcoref.git
 # cd neuralcoref
